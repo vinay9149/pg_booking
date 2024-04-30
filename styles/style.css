@@ -1241,6 +1241,16 @@ Portfolio
   margin-bottom: 0;
 }
 
+.float_icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
 /* 
 ---------------------------------------------
 Blog
