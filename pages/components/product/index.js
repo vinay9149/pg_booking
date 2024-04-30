@@ -16,7 +16,7 @@ const Product = () => {
             <div className="item wow bounceInUp">
               <div className="hidden-content">
                 <h4>Single rooms</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Starting from ₹12999/-</p>
               </div>
               <div className="showed-content">
                 <img src="/portfolio-image.png" alt="" />
@@ -27,7 +27,7 @@ const Product = () => {
             <div className="item wow bounceInUp">
               <div className="hidden-content">
                 <h4>Double sharing rooms</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Starting from ₹7999/-</p>
               </div>
               <div className="showed-content">
                 <img src="/portfolio-image.png" alt="" />
@@ -38,7 +38,7 @@ const Product = () => {
             <div className="item wow bounceInUp">
               <div className="hidden-content">
                 <h4>Triple sharing rooms</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                <p>Starting from ₹5999/-</p>
               </div>
               <div className="showed-content">
                 <img src="/portfolio-image.png" alt="" />

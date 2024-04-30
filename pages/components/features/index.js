@@ -34,9 +34,7 @@ const Features = () => {
                     </div>
                     <div className="right-text">
                       <h4>RESIDENTIAL SERVICES</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter
-                      </p>
+                      <p>Best in class residential services</p>
                     </div>
                   </div>
                 </div>
@@ -58,9 +56,7 @@ const Features = () => {
                     </div>
                     <div className="right-text">
                       <h4>CLEAN ROOMS</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter
-                      </p>
+                      <p>Daily room cleaning and maintenance</p>
                     </div>
                   </div>
                 </div>
@@ -82,10 +78,7 @@ const Features = () => {
                     </div>
                     <div className="right-text">
                       <h4>BEST STAFF</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, ctetur aoi adipiscing
-                        elitere
-                      </p>
+                      <p>Best in class staff with years of experience</p>
                     </div>
                   </div>
                 </div>
@@ -107,9 +100,7 @@ const Features = () => {
                     </div>
                     <div className="right-text">
                       <h4>24 HOURS SERVICES</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter
-                      </p>
+                      <p>24 hours electricity and water available</p>
                     </div>
                   </div>
                 </div>
