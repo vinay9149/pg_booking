@@ -15,33 +15,33 @@ const Product = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="item wow bounceInUp">
               <div className="hidden-content">
-                <h4>Single rooms</h4>
                 <p>Starting from ₹12999/-</p>
               </div>
               <div className="showed-content">
-                <img src="/portfolio-image.png" alt="" />
+                <img src="/gallery.jpeg" alt="" />
+                <p>Single rooms</p>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
             <div className="item wow bounceInUp">
               <div className="hidden-content">
-                <h4>Double sharing rooms</h4>
                 <p>Starting from ₹7999/-</p>
               </div>
               <div className="showed-content">
-                <img src="/portfolio-image.png" alt="" />
+                <img src="/gallery-3.jpeg" alt="" />
+                <p>Double sharing rooms</p>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
             <div className="item wow bounceInUp">
               <div className="hidden-content">
-                <h4>Triple sharing rooms</h4>
                 <p>Starting from ₹5999/-</p>
               </div>
               <div className="showed-content">
-                <img src="/portfolio-image.png" alt="" />
+                <img src="/gallery-3.jpeg" alt="" />
+                <p>Triple sharing rooms</p>
               </div>
             </div>
           </div>
