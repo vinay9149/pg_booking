@@ -48,7 +48,7 @@ const Header = () => {
                 </li>
                 <li className="scroll-to-section">
                   <div className="main-red-button">
-                    <a href="">Contact Now</a>
+                    <a href="tel:+919911083130">Contact Now</a>
                   </div>
                 </li>
               </ul>

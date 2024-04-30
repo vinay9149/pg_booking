@@ -11,7 +11,7 @@ const Contact = () => {
                   For any enquiry, Call Us:{" "}
                   <span>
                     <i className="fa fa-phone"></i>{" "}
-                    <a href="#">+91-9911083130</a>
+                    <a href="tel:+919911083130">+91-9911083130</a>
                   </span>
                 </h4>
               </div>
