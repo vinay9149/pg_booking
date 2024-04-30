@@ -27,7 +27,7 @@ export default function Home() {
       <Product />
       <Contact />
       <Footer />
-      <a href="https://wa.me/9911083130?text=Hi" className="float_icon">
+      <a href="https://wa.me/+919911083130?text=Hi" className="float_icon">
         <img src="/whatsapp.png" />
       </a>
     </>

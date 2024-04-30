@@ -44,7 +44,7 @@ const Header = () => {
                   <a href="#">Gallery</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="https://wa.me/9911083130?text=Hi">Message Us</a>
+                  <a href="https://wa.me/+919911083130?text=Hi">Message Us</a>
                 </li>
                 <li className="scroll-to-section">
                   <div className="main-red-button">
