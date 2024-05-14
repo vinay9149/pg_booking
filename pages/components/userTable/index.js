@@ -24,40 +24,43 @@ const UserTable = (props) => {
         </span>
       </div>
       {props.userData && props.userData.length > 0 ? (
-        <table className="table">
-          <thead>
-            <tr>
-              <th scope="col">S.no.</th>
-              <th scope="col">Date</th>
-              <th scope="col">Name</th>
-              <th scope="col">Mobile</th>
-              <th scope="col">Email</th>
-              <th scope="col">Message</th>
-              <th scope="col">Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {props.userData &&
-              props.userData.map((data, index) => (
-                <tr key={index}>
-                  <td>{index + 1}</td>
-                  <td>{data.date}</td>
-                  <td>{data.name}</td>
-                  <td>{data.mobile}</td>
-                  <td>{data.email}</td>
-                  <td>{data.message}</td>
-                  <td>
-                    <button
-                      className="btn btn-danger"
-                      onClick={() => props.handleDelete(data)}
-                    >
-                      Delete
-                    </button>
-                  </td>
-                </tr>
-              ))}
-          </tbody>
-        </table>
+        <div className="table-responsive">
+          {" "}
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">S.no.</th>
+                <th scope="col">Date</th>
+                <th scope="col">Name</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Email</th>
+                <th scope="col">Message</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {props.userData &&
+                props.userData.map((data, index) => (
+                  <tr key={index}>
+                    <td>{index + 1}</td>
+                    <td>{data.date}</td>
+                    <td>{data.name}</td>
+                    <td>{data.mobile}</td>
+                    <td>{data.email}</td>
+                    <td>{data.message}</td>
+                    <td>
+                      <button
+                        className="btn btn-danger"
+                        onClick={() => props.handleDelete(data)}
+                      >
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
       ) : (
         <h1 style={{ textAlign: "center" }}>No Data Found</h1>
       )}
