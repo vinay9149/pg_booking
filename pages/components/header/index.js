@@ -27,21 +27,21 @@ const Header = () => {
               </a>
               <ul className="nav" id="menu">
                 <li className="scroll-to-section">
-                  <a href="#top" className="active">
+                  <a href="/" className="active">
                     Home
                   </a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#">About Us</a>
+                  <a href="/about">About Us</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#">Services</a>
+                  <a href="/service">Services</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#">Tariffs</a>
+                  <a href="/tariff">Tariffs</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#">Gallery</a>
+                  <a href="/gallery">Gallery</a>
                 </li>
                 <li className="scroll-to-section">
                   <a href="https://wa.me/+919911083130?text=Hi">Message Us</a>
