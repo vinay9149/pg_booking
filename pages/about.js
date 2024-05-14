@@ -3,6 +3,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Banner from "./components/bannner";
 import Contact from "./components/contact";
+import AboutUs from "./components/aboutUs";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
       </Head>
       <Header />
       <Banner page="about" />
+      <AboutUs />
       <Contact />
       <Footer />
       <a href="https://wa.me/+919911083130?text=Hi" className="float_icon">
